@@ -8,8 +8,10 @@
 @import 'utilities/backdrop-title.css';
 
 @import 'components/button.css';
+@import 'components/input.css';
 
 @import 'sections/header.css';
 @import 'sections/banner.css';
 @import 'sections/motivation.css';
 @import 'sections/training-types.css';
+@import 'sections/join-us.css';
