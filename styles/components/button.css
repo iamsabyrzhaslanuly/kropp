@@ -20,10 +20,6 @@
     border-color: currentColor;
   }
 
-  &:active {
-    scale: 0.97;
-  }
-
   &.transparent {
     position: relative;
     height: var(--input-height);
