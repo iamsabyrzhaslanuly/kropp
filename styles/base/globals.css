@@ -21,6 +21,14 @@ a {
   &:hover {
     color: var(--color-light-gray);
   }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+button:active {
+  scale: 0.97;
 }
 
 h1, h2, h3 {
