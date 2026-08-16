@@ -28,3 +28,8 @@ h1, h2, h3 {
   text-transform: uppercase;
   color: var(--color-light);
 }
+
+::selection {
+  color: var(--color-dark-alt);
+  background-color: var(--color-light);
+}
