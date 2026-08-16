@@ -1,26 +1,4 @@
-@font-face {
-  font-family: 'Heebo';
-  src: url('./fonts/Heebo-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Heebo';
-  src: url('./fonts/Heebo-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Yantramanav';
-  src: url('./fonts/Yantramanav-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+@import 'fonts.css';
 
 /**
   Нормализация блочной модели
@@ -425,7 +403,7 @@ h1, h2, h3 {
     width: clamp(60px, 10.1vw, 194px);
     aspect-ratio: 1;
     margin-right: 30px;
-    background: url('./icons/bold-arrow-down-right.svg') center / contain no-repeat;
+    background: url('../icons/bold-arrow-down-right.svg') center / contain no-repeat;
   }
 }
 
