@@ -474,7 +474,11 @@ h1, h2, h3 {
     flex-wrap: wrap;
     row-gap: 10px;
     padding-top: 20px;
-    padding-inline: 15px;
+  }
+
+  .header,
+  .banner {
+    padding-inline: var(--container-padding-x);
   }
 
   .header-menu {
@@ -484,6 +488,10 @@ h1, h2, h3 {
 
   .header-menu-link {
     height: 50px;
+  }
+
+  .banner {
+    row-gap: 10px;
   }
 }
 
@@ -506,5 +514,13 @@ h1, h2, h3 {
 
   .header-actions {
     column-gap: 15px;
+  }
+
+  .banner-info {
+    margin-bottom: 5px;
+
+    &::before {
+      margin-right: 10px;
+    }
   }
 }
