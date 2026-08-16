@@ -14,3 +14,9 @@
   text-align: center;
   color: var(--color-light);
 }
+
+@media (max-width: 767px) {
+  .section-description {
+    font-size: 16px;
+  }
+}
